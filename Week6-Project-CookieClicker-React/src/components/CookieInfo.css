@@ -1,0 +1,29 @@
+.cookieInfo {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(206, 46, 46, 0.1);
+  font-weight: bold;
+  font-size: 32px;
+  color: #36be53;
+}
+
+.cookieInfo p {
+  margin: 15px;
+}
+
+@media (max-width: 430px) {
+  .cookieInfo {
+    top: 70px;    
+    left: 50px;   
+    font-size: 28px;  
+    padding: 0px;    
+  }
+
+  .cookieInfo p {
+    margin: 10px;  
+  }
+}

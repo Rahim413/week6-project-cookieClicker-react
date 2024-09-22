@@ -1,0 +1,34 @@
+.cookieImageContainer {
+  justify-content: center;
+  margin-top: 300px;
+  width: 100%;
+}
+
+#cookieImage {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  animation: rotateCookie 5s linear infinite;
+}
+
+@keyframes rotateCookie {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 430px) {
+  .cookieImageContainer {
+    margin-top: 150px; 
+  }
+
+  .cookieInfo {
+    top: 50px; 
+    left: 10px; 
+    font-size: 24px; 
+    padding: 15px; 
+  }
+}

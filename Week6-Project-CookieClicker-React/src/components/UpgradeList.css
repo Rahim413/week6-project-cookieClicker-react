@@ -1,0 +1,47 @@
+.upgradeList {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.upgradeList button {
+  margin-top: 5px;
+  margin-left: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #31a05b;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.upgradeList button:hover {
+  background-color: #6bd99a;
+  border-color: #6bd99a;
+}
+
+@media (max-width: 430px) {
+  .upgradeList {
+    top: 500px; 
+    right: 5px; 
+    width: 87%; 
+   
+  }
+
+  .upgradeList button {
+    margin: 4px 0; 
+    padding: 8px; 
+    font-size: 12px;
+  }
+}
