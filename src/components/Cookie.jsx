@@ -6,7 +6,7 @@ export default function Cookie({ onClick }) {
     <div className="cookieImageContainer">
       <img
         id="cookieImage"
-        src="./public/cookie-image.png"
+        src="/cookie-image.png"
         alt="cookie"
         onClick={onClick}
       />
